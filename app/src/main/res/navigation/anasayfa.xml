@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/anasayfa"
+    app:startDestination="@id/fragment1">
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="com.example.demo.Fragment1"
+        android:label="Fragment1"
+        tools:layout="@layout/fragment_1"/>
+    <fragment
+        android:id="@+id/fragment_2"
+        android:name="com.example.demo.fragment2"
+        android:label="fragment_giris_yap"
+        tools:layout="@layout/fragment_2" >
+        <action
+            android:id="@+id/kaydolagec"
+            app:destination="@id/kayitol" />
+        <action
+            android:id="@+id/sifremiunuttumagecis"
+            app:destination="@id/sifremiunuttum" />
+    </fragment>
+    <fragment
+        android:id="@+id/kayitol"
+        android:name="com.example.demo.kayitol"
+        android:label="fragment_kayitol"
+        tools:layout="@layout/fragment_kayitol" >
+        <action
+            android:id="@+id/kucukprensgeciss"
+            app:destination="@id/kucukPrens6"
+            app:enterAnim="@android:anim/fade_in" />
+    </fragment>
+    <fragment
+        android:id="@+id/kucukPrens6"
+        android:name="com.example.demo.kucukPrens"
+        android:label="kucukPrens" />
+    <fragment
+        android:id="@+id/tarife2"
+        android:name="com.example.demo.Tarife"
+        android:label="Tarife" />
+    <fragment
+        android:id="@+id/sifremiunuttum"
+        android:name="com.example.demo.Sifremiunuttum"
+        android:label="Sifremiunuttum" />
+</navigation>

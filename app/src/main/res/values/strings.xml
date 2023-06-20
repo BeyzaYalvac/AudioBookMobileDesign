@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Demo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="kayıtol">kayıt ol</string>
+    <string name="hesap">hesabın yok mu?</string>
+    <string name="Sifre">Şifreni mi unuttun?</string>
+    <string name="sifre1">Şifreni değiştir</string>
+    <string name="giris">Giriş yap</string>
+    <string name="kuulanıcı">Kullanıcı adınızı giriniz.</string>
+    <string name="sifren">"Şifrenizi giriniz.</string>
+    <string name="plan">planlar</string>
+    <string name="dilyok">Türkçe dil</string>
+    <string name="dilvar">dil seçenekleri var</string>
+    <string name="uy">Uzman desteği yok</string>
+    <string name="uv">uzman desteği var</string>
+    <string name="ay">Animasyonlu içerikler yok</string>
+    <string name="av">animasyonlu içerikler var</string>
+    <string name="hemen">hemen kayıt ol</string>
+    <string name="freemium">FREEMIUM</string>
+    <string name="premium">PREEMIUM</string>
+    <string name="email">E-mailini giriniz</string>
+    <string name="kayıtoll">kayıt ol</string>
+    <string name="şartlar">kullanıcı şartları sözleşmesini okudum, kabul ediyorum.</string>
+    <string name="okumak">okumaya başla></string>
+</resources>

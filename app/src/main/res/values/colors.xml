@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="mavi">#5df2b4</color>
+    <color name="mor">#7f4aa4</color>
+    <color name="sarı">#fbed0c</color>
+    <color name="turuncu">#fdb915</color>
+    <color name="lila">#b58fd4</color>
+    <color name="pembe">#c598ad</color>
+    <color name="koyumor">#804D2E32</color>
+    <color name="morumsu">#4D2E32</color>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+        android:id="@+id/fragment1"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Ana Sayfa" />
+    <item
+        android:id="@+id/fragment_2"
+        android:icon="@drawable/baseline_login_24"
+        android:title="Giriş Yap" />
+    <item
+        android:id="@+id/tarife"
+        android:title="Planlar" />
+    <item
+        android:id="@+id/kayitol"
+        android:icon="@drawable/baseline_lock_open_24"
+        android:title="Kayıt ol" />
+    <item
+        android:icon="@drawable/baseline_question_mark_24"
+        android:title="S.S.S" />
+    <item
+        android:icon="@drawable/baseline_info_24"
+        android:title="Hakkımızda" />
+    <item android:title="Kitap Başvurusu" />
+</menu>
